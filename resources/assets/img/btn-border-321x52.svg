@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="52px" viewBox="0 0 321 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="99.175849%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#E7DA36" offset="0%"></stop>
+            <stop stop-color="#E48F5F" offset="33.4989162%"></stop>
+            <stop stop-color="#AE63A7" offset="67.4945809%"></stop>
+            <stop stop-color="#00C0E9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button-Copy-5" stroke="url(#linearGradient-1)" stroke-width="2">
+            <rect id="Rectangle-2" x="1" y="1" width="319" height="50" rx="25"></rect>
+        </g>
+    </g>
+</svg>

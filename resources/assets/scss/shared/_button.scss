@@ -1,0 +1,43 @@
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  font-size: 14px;
+  white-space: pre-wrap;
+  padding: 15.5px;
+  height: 52px;
+  vertical-align: middle;
+  letter-spacing: 2.5px;
+  min-width: 290px;
+  max-width: 100%;
+  position: relative;
+  border: none;
+  z-index: 1;
+}
+.btn-lg {
+  min-width: 421px;
+  background: url('../img/btn-border-421x52.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @include media-breakpoint-down('sm'){
+    background: url('../img/btn-border-290x52.svg');
+    min-width: 290px;
+    max-width: 290px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+}
+.btn-md {
+  padding: 15.5px;
+  width: 321px;
+  background: url('../img/btn-border-321x52.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.btn-sm {
+  min-width: 228px;
+  background: url('../img/btn-border-228x52.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

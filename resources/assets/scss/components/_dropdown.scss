@@ -1,0 +1,61 @@
+.dropdown-languages {
+  .dropdown-language {
+    position: relative;
+    &::after {
+      content: "";
+      background: url('../img/chevron.svg') no-repeat;
+      position: absolute;
+      background-size: contain;
+      background-position: center;
+      right: -20px;
+      top: 4px;
+      width: 15px;
+      height: 10px;
+      cursor: pointer;
+    }
+  }
+  .dropdown-menu {
+    background-color: $white;
+    min-width: 160px;
+  }
+  .dropdown-menu.show {
+    display: block;
+    padding-left: 20px;
+  }
+}
+.navbar-nav-top .dropdown-menu {
+  position: absolute;
+}
+.navbar-nav-bottom .dropdown-menu {
+  position: relative;
+  color: $white;
+}
+.dropdown-toggle::after {
+  position: absolute;
+  background: url('../img/chevron-white.svg') no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 16px;
+  height: 15px;
+  border: none;
+  top: 10px;
+}
+.dropdown-menu {
+  border: none;
+  border-radius: 4px;
+  min-width: 100%;
+  background-color: transparent;
+  .dropdown-item {
+    padding: 2px 0;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+    &:hover {
+      background-color: transparent;
+      a {
+        color: $info;
+      }
+    }
+  }
+}

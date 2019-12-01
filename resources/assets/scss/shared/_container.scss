@@ -1,0 +1,34 @@
+@mixin make-container-sider() {
+  padding-right: ($grid-gutter-width / 2);
+  padding-left: ($grid-gutter-width / 2);
+}
+
+.container-left {
+  @include make-container-sider();
+}
+.container-right {
+  @include make-container-sider();
+}
+
+@each $breakpoint-key, $container-max-width in $container-max-widths {
+  $grid-breakpoint: map-get($grid-breakpoints, $breakpoint-key);
+  
+  @include media-breakpoint-up($breakpoint-key) {
+    @if ($breakpoint-key != 'xs' && $breakpoint-key != 'sm') {
+      .container-left {
+        margin-left: calc(50vw - #{$container-max-width / 2});
+        margin-right: 0;
+      }
+      .container-right {
+        margin-left: 0;
+        margin-right: calc(50vw - #{$container-max-width / 2});
+      }
+    } @else {
+      .container-left, .container-right {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: $container-max-width;
+      }
+    }
+  }
+}

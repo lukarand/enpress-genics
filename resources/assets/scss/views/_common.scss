@@ -1,0 +1,8 @@
+.page-card {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  @include media-breakpoint-down('sm'){
+    padding: 0;
+  }
+}

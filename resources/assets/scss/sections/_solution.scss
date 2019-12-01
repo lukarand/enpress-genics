@@ -1,0 +1,28 @@
+.section-solution {
+  .solution-map-content {
+    margin-left: 20%;
+    max-width: 466px;
+    @include media-breakpoint-down('md'){
+      margin: auto;
+    }
+  }
+  .solution-map {
+    max-width: 100%;
+    height: auto;
+  } 
+  .solution-shrimp-content {
+    max-width: 407px;
+    @include media-breakpoint-down('md'){
+      max-width: 100%;
+    }
+  }
+  .solution-shrimp {
+    img {
+      height: auto;
+      width: 527px;
+      @include media-breakpoint-down('md') {
+        max-width: 100%;
+      }
+    }
+  }
+}

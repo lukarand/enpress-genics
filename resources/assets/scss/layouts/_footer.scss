@@ -1,0 +1,58 @@
+.site-footer {
+  font-size: $font-size-sm;
+  color: rgba($white, .5);
+  letter-spacing: 1.2px;
+  a {
+    color: $white;
+    &:hover {
+      color: rgba($white, .5);
+    }
+  }
+  .footer-logo {
+    img {
+      width: 230px;
+      height: auto;
+    }
+  }
+
+  .footer-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: $font-size-base;
+    letter-spacing: 1.5px;
+    margin: 0 -24px;
+    padding: 0;
+    li {
+      a {
+        padding: 0 24px;
+      }
+    }
+    
+  }
+
+  .support-menu {
+    list-style-type: none;
+    margin: 0 -24px;
+    padding: 0;
+    li {
+      a {
+        padding: 0 24px;
+      }
+    }
+    display: flex;
+  }
+
+  .anim-flip-logo {
+    color: rgba($white, .5);
+    display: block;
+    perspective: 1em;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    line-height: 28px;
+    &:hover {
+      animation: flip-logo 4s ease-in-out infinite;
+    }
+  }
+}

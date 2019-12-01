@@ -1,0 +1,16 @@
+.form-group {
+  position: relative;
+  label {
+    font-weight: $font-weight-bold;
+    font-size: 13px;
+    color: $cyan;
+    position: absolute;
+    top: 14px;
+    left: $input-padding-x;
+  }
+  .form-control {
+    font-size: $font-size-lg;
+    padding-top: 32px;
+    height: 74px;
+  }
+}

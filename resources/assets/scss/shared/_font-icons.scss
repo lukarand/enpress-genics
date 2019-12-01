@@ -1,0 +1,83 @@
+$icomoon-font-family: "GenicsIcon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-13: "\e900";
+$icon-graph: "\e901";
+$icon-clock: "\e902";
+$icon-tick: "\e903";
+$icon-dna: "\e904";
+$icon-shrimp: "\e905";
+$icon-paper: "\e906";
+$icon-tree: "\e907";
+$icon-login: "\e908";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qlyvo1');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qlyvo1#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?qlyvo1') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?qlyvo1') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-13 {
+  &:before {
+    content: $icon-13;     
+  }
+}
+.icon-graph {
+  &:before {
+    content: $icon-graph;
+  }
+}
+.icon-clock {
+  &:before {
+    content: $icon-clock;
+  }
+}
+.icon-tick {
+  &:before {
+    content: $icon-tick;
+  }
+}
+.icon-dna {
+  &:before {
+    content: $icon-dna;     
+  }
+}
+.icon-shrimp {
+  &:before {
+    content: $icon-shrimp;     
+  }
+}
+.icon-paper {
+  &:before {
+    content: $icon-paper;
+  }
+}
+.icon-tree {
+  &:before {
+    content: $icon-tree;     
+  }
+}
+.icon-login {
+  &:before {
+    content: $icon-login;     
+  }
+}

@@ -1,0 +1,15 @@
+.section-shrimp {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  h2 {
+    img {
+      width: 50px;
+    }
+  }
+  .shrimp-header {
+    max-width: 630px;
+    margin: auto;
+    opacity: 0.72;
+  }
+}

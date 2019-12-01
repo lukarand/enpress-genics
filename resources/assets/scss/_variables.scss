@@ -1,0 +1,44 @@
+$container-gutter-width: 22px;
+
+$font-maps: (
+  'BrownLight':                  (family: 'Brown',       file: 'Brown-Light',    weight: 300, style: normal),
+  'BrownRegular':                (family: 'Brown',       file: 'Brown-Regular',  weight: 400, style: normal),
+  'BrownRegularItalic':          (family: 'Brown',       file: 'Brown-RegularItalic', weight: 400, style: italic),
+  'BrownBold':                   (family: 'Brown',       file: 'Brown-Bold',     weight: 700, style: normal),
+);
+
+$font-weight-maps: (
+  'light': $font-weight-light,
+  'normal': $font-weight-normal,
+  'bold': $font-weight-bold
+);
+
+$header-z-index: 1000;
+$icon-size-maps: (
+  'xl': 48px,
+  'lg': 42px,
+  'md': 36px,
+  'base': 30px,
+  'sm': 24px,
+  'xs': 18px
+);
+
+$heading-maps: (
+  'h1': ('font-size': $h1-font-size, 'letter-spacing': 0, 'line-height': 0.85),
+  'h2': ('font-size': $h2-font-size, 'letter-spacing': -0.9px, 'line-height': 1.2),
+  'h3': ('font-size': $h3-font-size, 'letter-spacing': 0, 'line-height': 1.125),
+  'h4': ('font-size': $h4-font-size, 'letter-spacing': -0.9px, 'line-height': 1.5),
+  'h5': ('font-size': $h5-font-size, 'letter-spacing': -1, 'line-height': 1.12),
+  'h6': ('font-size': $h6-font-size, 'letter-spacing': 0, 'line-height': 1.5)
+);
+
+$heading-extended-maps: (
+  'h4': ('font-size': $h4-font-size, 'letter-spacing': -0.9px, 'line-height': 1.5),
+);
+
+$font-size-maps: (
+  'lg': ('font-size': ($font-size-base * 1.25), 'line-height': 1.5),
+  'md': ('font-size': $font-size-base * 1.125),
+  'base': ('font-size': $font-size-base),
+  'sm': ('font-size': $font-size-sm),
+);

@@ -1,0 +1,54 @@
+.section-home-hero {
+  background-size: cover;
+  background-position: center;
+  h3 {
+    margin-bottom: 9px;
+  }
+  .hero-spacer {
+    position: relative;
+    @include media-breakpoint-down('sm') {
+      height: 600px;
+    }
+    .hero-content {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 25%;
+      @include media-breakpoint-down('lg'){
+        bottom: 15%;
+      }
+      @include media-breakpoint-down('md'){
+        bottom: 10%;
+      }
+      @include media-breakpoint-down('sm'){
+        bottom: 20%;
+      }
+      @include media-breakpoint-down('xs'){
+        bottom: 15%;
+      }
+    }
+    video {
+      @include media-breakpoint-up('md') {
+        width: 100%;
+        height: auto;
+      }
+      @include media-breakpoint-down('sm') {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        margin: auto;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+  }
+}
+.section-hero {
+  height: 417px;
+  background-size: cover;
+  background-position: center;
+  p {
+    max-width: 365px;
+  }
+}
