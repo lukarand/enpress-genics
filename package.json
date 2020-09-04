@@ -43,7 +43,7 @@
     "jsonschema": "^1.2.0",
     "lottie-web": "^5.4.3",
     "mq-scss": "^2.1.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "popper.js": "^1.14.6",
     "postcss-loader": "^2.1.4",
     "raw-loader": "^0.5.1",
