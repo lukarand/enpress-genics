@@ -52,7 +52,7 @@
     "sass-loader": "^7.0.1",
     "slick-carousel": "^1.8.1",
     "style-loader": "^0.13.1",
-    "swiper": "^4.4.6",
+    "swiper": "^6.5.1",
     "tingle.js": "^0.13.0",
     "url-loader": "^0.5.8",
     "uuid": "^3.2.1",
